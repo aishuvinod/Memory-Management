@@ -1,8 +1,4 @@
-/**
- * Simple, single-threaded merge sort.
- *
- * Do not modify this file so you can use it to check the tmsort implementation.
- */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -20,7 +16,7 @@
 #define log(...)
 #endif
 
-/** The number of threads to be used for sorting. Default: 1 */
+/** The number of threads to be used for sorting. */
 int thread_count = 1;
 
 /**
